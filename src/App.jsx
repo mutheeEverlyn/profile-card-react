@@ -16,7 +16,7 @@ const App=() =>{
   },{
     name : "kevin Mwangi",
     age: 17,
-    ProfilePicture: "./src/assets/Grace.jpg",
+    ProfilePicture: "./src/assets/kevin.jpg",
     bio: "i am a nurse"
   }
     ]
