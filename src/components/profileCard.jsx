@@ -1,8 +1,8 @@
 import './profileCard.css'
-const profileCard = ({name,age,profilePicture,bio}) => {
+const ProfileCard = ({name,age,ProfilePicture,bio}) => {
   return (
-    < div className="profile-card">
-      <img src={profilePicture} alt="user profile" className="profile-picture"/>
+    < div className="ProfileCard">
+      <img src={ProfilePicture} alt="user profile" className="ProfilePicture"/>
       <h2>{name}</h2>
        <p>{age}YRS</p> 
        <p>{bio}</p>
@@ -11,4 +11,4 @@ const profileCard = ({name,age,profilePicture,bio}) => {
   );
 };
 
-export default profileCard;
+export default ProfileCard;

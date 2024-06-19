@@ -1,6 +1,6 @@
 
-.profile-card {
-    background-color: #f0f0f0;
+.ProfileCard {
+    background-color: lightblue;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -9,21 +9,21 @@
     margin: 20px;
   }
   
-  .profile-picture {
-    width: 150px;
-    height: 150px;
+  .ProfilePicture {
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 10px;
   }
   
-  .profile-card h2 {
+  .ProfileCard h2 {
     color: #333;
     font-size: 24px;
     margin: 10px 0;
   }
   
-  .profile-card p {
+  .ProfileCard p {
     color: #666;
     font-size: 16px;
     line-height: 1.5;
